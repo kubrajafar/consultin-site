@@ -1,0 +1,542 @@
+// business-section start
+#business-section {
+  width: 100%;
+  background-image: url("../img/h1_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .myContainer {
+    .business-container {
+      width: 100%;
+      .carousel-item {
+        max-width: 730px;
+        width: 100%;
+        padding-left: 60px;
+        .carousel-minHeader {
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 22px;
+          .line {
+            width: 55px;
+            height: 2px;
+            background-color: #eb566c;
+          }
+          margin-top: 100px;
+          p {
+            font-size: 18px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            color: #eb566c;
+          }
+        }
+        .carousel-bigHeader {
+          margin-bottom: 33px;
+
+          h1 {
+            font-size: 85px;
+            font-weight: 800;
+            margin-bottom: 14px;
+            color: #000;
+            font-family: "Sarabun", sans-serif;
+          }
+        }
+        .carousel-text {
+          margin-bottom: 50px;
+          max-width: 670px;
+          p {
+            font-size: 16px;
+            color: #000000;
+            font-family: "Roboto", sans-serif;
+            line-height: 30px;
+            font-weight: 400;
+          }
+        }
+        .carousel-button {
+          margin-bottom: 50px;
+          button {
+            padding: 20px 30px;
+            background-color: #ff2143;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+          }
+        }
+      }
+      .slick-arrow {
+        width: 60px;
+        height: 70px;
+        margin: 10px;
+        background-color: inherit;
+        border: 1px solid #fff;
+      }
+      .slick-arrow::before {
+        font-family: "Courier New", Courier, monospace;
+      }
+    }
+  }
+}
+// business-section end
+
+// services-section start
+#services-section {
+  background-color: #f7f7f7;
+  .myContainer {
+    .services-container {
+      font-family: "Roboto", sans-serif;
+      padding-bottom: 80px;
+      padding-top: 10px;
+      .services-header {
+        margin-bottom: 50px;
+        .services-minHeader {
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 22px;
+          margin-top: 100px;
+          .line {
+            width: 55px;
+            height: 2px;
+            background-color: #eb566c;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #eb566c;
+          }
+        }
+        .services-bigHeader {
+          h2 {
+            font-size: 50px;
+            color: #092c3f;
+            font-weight: 900;
+          }
+        }
+      }
+      .input {
+        padding: 10px;
+        margin-bottom: 40px;
+        width: 300px;
+        font-size: 16px;
+      }
+      .job {
+        display: flex;
+        gap: 10px;
+        button {
+          padding: 5px 10px;
+          background-color: rgb(136, 136, 237);
+          color: #fff;
+          font-size: 16px;
+          border: none;
+          margin-bottom: 20px;
+          border-radius: 3px;
+        }
+      }
+      .services-cards {
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-bottom: 60px;
+        .services_card {
+          text-align: center;
+          background-color: #fff;
+          max-width: 370px;
+          width: 100%;
+          padding: 20px 15px;
+          transition: 1s ease;
+          min-height: 260px;
+          margin-bottom: 20px;
+          .card_img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 25px;
+          }
+          .card_headerBox {
+            width: 100%;
+            margin-bottom: 15px;
+            color: #092c3f;
+            font-weight: 500;
+            font-size: 24px;
+          }
+          .card_textBox {
+            max-width: 360px;
+            width: 100%;
+            color: #57667e;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: normal;
+          }
+          .card_btn {
+            padding: 10px 15px;
+            background-color: blue;
+            color: #fff;
+            font-size: 18px;
+            border: none;
+            margin-top: 20px;
+            border-radius: 3px;
+          }
+          &:hover {
+            background-color: #dc3545;
+            color: #fff;
+          }
+          &:hover .card_headerBox {
+            color: #fff;
+          }
+          &:hover .card_textBox {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+// services-section end
+
+// topServices start
+#topServices {
+  width: 100%;
+  background-image: url("../img/section_bg02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .myContainer {
+    .topServices-container {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px 0;
+      gap: 20px;
+      .topServices-imageBox {
+        img {
+          max-width: 570px;
+          width: 100%;
+        }
+      }
+      .topServices-contentBox {
+        max-width: 500px;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        .topServices-minHeader {
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 22px;
+          .line {
+            width: 55px;
+            height: 2px;
+            background-color: #fff;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #cecece;
+          }
+        }
+        .topServices-bigHeader {
+          margin-bottom: 33px;
+          h2 {
+            margin-bottom: 14px;
+            font-size: 50px;
+            color: #fff;
+            font-weight: 900;
+          }
+        }
+        .topServices-abouttext {
+          margin-bottom: 30px;
+          p {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            line-height: 30px;
+          }
+        }
+        .topServices-Text {
+          margin-bottom: 50px;
+          p {
+            font-size: 16px;
+            color: #cecece;
+            line-height: 28px;
+            font-weight: 400;
+          }
+        }
+
+        .topServices-button {
+          margin-bottom: 50px;
+          button {
+            padding: 20px 30px;
+            background-color: #ff2143;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// topServices end
+
+// ourTeam start
+#ourTeam {
+  width: 100%;
+  background-color: #f7f7f7;
+  .myContainer {
+    .ourTeam-container {
+      width: 100%;
+      font-family: "Roboto", sans-serif;
+
+      .ourTeam-headerBox {
+        padding: 5px 0 60px 0;
+        .services-minHeader {
+          width: 100%;
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          margin-bottom: 22px;
+          margin-top: 100px;
+          .line {
+            width: 55px;
+            height: 2px;
+            background-color: #eb566c;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 500;
+            color: #eb566c;
+          }
+        }
+        .services-bigHeader {
+          h2 {
+            font-size: 50px;
+            color: #092c3f;
+            font-weight: 900;
+          }
+        }
+      }
+      .ourTeam-cardsBox {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-between;
+        gap: 20px;
+        .ourTeam-card {
+          max-width: 370px;
+          width: 100%;
+          .card-imgBox {
+            width: 100%;
+            img {
+              width: 100%;
+            }
+          }
+          .card-contentBox {
+            padding: 20px;
+            background-color: #fff;
+            .card-person-name {
+              margin-bottom: 10px;
+              h3 {
+                color: #161e46;
+                font-weight: 700;
+                font-size: 25px;
+              }
+            }
+            .card-person-mission {
+              width: 100%;
+              display: flex;
+              gap: 10px;
+              align-items: center;
+
+              .line {
+                width: 30px;
+                height: 2px;
+                background-color: #ff2143;
+              }
+              p {
+                color: #ff2143;
+                font-size: 14px;
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// ourTeam end
+
+//company-section start
+#company-section {
+  background-color: #f7f7f7;
+  .myContainer {
+    .company-container {
+      padding: 200px 0;
+    }
+  }
+}
+//company-section end
+
+@media screen and (max-width: 992px) {
+  #business-section {
+    .myContainer {
+      .business-container {
+        .carousel-item {
+          max-width: 600px;
+          padding-left: 0;
+
+          .carousel-minHeader {
+            p {
+              font-size: 16px;
+            }
+          }
+          .carousel-bigHeader {
+            h1 {
+              line-height: 70px;
+              font-size: 65px;
+            }
+          }
+        }
+        .slick-arrow {
+          display: none !important;
+        }
+      }
+    }
+  }
+
+  #topServices {
+    .myContainer {
+      .topServices-container {
+        flex-direction: column;
+        .topServices-contentBox {
+          padding-top: 40px;
+          .topServices-bigHeader {
+            h2 {
+              font-size: 27px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #ourTeam {
+    width: 100%;
+    background-color: #f7f7f7;
+    .myContainer {
+      .ourTeam-container {
+        .ourTeam-headerBox {
+          .services-bigHeader {
+            h2 {
+              font-size: 50px;
+              color: #092c3f;
+              font-weight: 900;
+            }
+          }
+        }
+        .ourTeam-cardsBox {
+          grid-template-columns: auto auto;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #business-section {
+    .myContainer {
+      .business-container {
+        .carousel-item {
+          max-width: 560px;
+          .carousel-minHeader {
+            p {
+              font-size: 14px;
+            }
+          }
+          .carousel-bigHeader {
+            h1 {
+              line-height: 50px;
+              font-size: 40px;
+            }
+          }
+          .carousel-text {
+            max-width: 400px;
+          }
+        }
+      }
+    }
+  }
+
+  #services-section {
+    .myContainer {
+      .services-container {
+        .services-header {
+          .services-bigHeader {
+            h2 {
+              font-size: 31px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #ourTeam {
+    width: 100%;
+    background-color: #f7f7f7;
+    .myContainer {
+      .ourTeam-container {
+        .ourTeam-headerBox {
+          .services-bigHeader {
+            h2 {
+              font-size: 31px;
+            }
+          }
+        }
+        .ourTeam-cardsBox {
+          justify-content: center;
+          grid-template-columns: auto;
+          .ourTeam-card {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  #business-section {
+    .myContainer {
+      .business-container {
+        .carousel-item {
+          max-width: 560px;
+          padding-left: 0;
+          .carousel-minHeader {
+            p {
+              font-size: 13px;
+            }
+          }
+          .carousel-bigHeader {
+            h1 {
+              line-height: 40px;
+              font-size: 32px;
+            }
+          }
+          .carousel-text {
+            max-width: 400px;
+            p {
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

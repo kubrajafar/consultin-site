@@ -1,0 +1,123 @@
+nav {
+  background-color: #fff;
+
+  left: 0;
+  right: 0;
+  .myContainer {
+    .nav-container {
+      width: 100%;
+      padding-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      font-family: "Poppins", sans-serif;
+      position: relative;
+
+      .nav-menu {
+  z-index: 4;
+
+        ul {
+          display: flex;
+          gap: 20px;
+          li {
+            color: #0d2d3e;
+            font-weight: 400;
+            font-size: 16px;
+            position: relative;
+            .dropdown-menu {
+              background-color: #0d2d3e;
+              width: 140px;
+              top: 60px;
+              position: absolute;
+              display: none;
+              li {
+                color: #fff;
+                padding: 15px;
+                transition: 0.6s;
+                &:hover {
+                  padding-left: 20px;
+                }
+              }
+            }
+            &:hover > .dropdown-menu {
+              display: block;
+            }
+          }
+          .dropdown-menuBox {
+            padding-bottom: 60px;
+          }
+        }
+      }
+      .nav-hamburger-menu {
+        width: 100%;
+        background-color: #4c4c4c;
+        display: flex;
+        position: relative;
+        height: 50px;
+        align-items: center;
+        display: none;
+        .hamburger-iconBox {
+          cursor: pointer;
+          position: absolute;
+          right: 20px;
+          width: 80px;
+          display: flex;
+          gap: 5px;
+          background-color: #000;
+          border-radius: 3px;
+          padding: 5px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    .myContainer {
+      .nav-container {
+        flex-direction: column;
+        .nav-menu {
+          display: none;
+          &.active {
+            width: 100%;
+
+            min-height: 250px;
+            display: block;
+            background-color: #4c4c4c;
+            position: absolute;
+            padding: 30px;
+            right: 0;
+            top: 100px;
+            ul {
+              display: block;
+              li {
+                color: #fff;
+                padding: 10px;
+              }
+              .dropdown-menuBox {
+                position: relative;
+                .dropdown-menu {
+                  position: relative;
+                  top: 0;
+                  background-color: inherit;
+
+                  li {
+                    padding: 10px;
+                    padding-top: 25px;
+                  }
+                }
+                &:hover > .dropdown-menu {
+                  display: none;
+                }
+              }
+            }
+          }
+        }
+        .nav-hamburger-menu {
+          display: flex;
+        }
+      }
+    }
+  }
+}

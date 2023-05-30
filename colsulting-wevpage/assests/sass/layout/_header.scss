@@ -1,0 +1,38 @@
+header {
+  background-color: #0d2d3e;
+  .myContainer {
+    .header-container {
+      width: 100%;
+      padding: 15px 0;
+      color: #fff;
+
+      .company-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .company-workTime {
+          display: flex;
+          font-size: 12px;
+          font-weight: 100;
+          font-family: "Roboto", sans-serif;
+          i {
+            color: red;
+            margin-right: 10px;
+          }
+          .work-open {
+            margin-right: 40px;
+          }
+        }
+        .company-contact {
+          display: flex;
+          gap: 20px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  header {
+    display: none;
+  }
+}
