@@ -32,7 +32,6 @@ function cardData(data) {
   services_cards.append(card);
 
   card_btn.onclick = () => {
-
     card_btn.parentElement.remove();
     fetch("http://localhost:3000/datas/" + data.id, { method: "Delete" })
       .then((res) => res.json())

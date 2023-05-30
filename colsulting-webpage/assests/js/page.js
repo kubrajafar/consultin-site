@@ -9,7 +9,7 @@ submitForm.addEventListener("submit", (e) => {
     header: header.value,
     about: text.value,
   };
-  console.log(obj);
+
   fetch("http://localhost:3000/datas", {
     method: "Post",
     headers: {
@@ -17,5 +17,5 @@ submitForm.addEventListener("submit", (e) => {
     },
     body: JSON.stringify(obj),
   });
-  console.log(obj);
+
 });
